@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { changeColor } from '../features/theme';
+import { changeColor } from 'features/theme';
 
 const ChangeColor = () => {
     const [color, setColor] = useState('');
